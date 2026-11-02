@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "oneshotspear",
+  "version": "${version}",
+  "name": "One Shot Spear",
+  "description": "Spears instantly kill whatever they hit. Press K for the menu. Singleplayer / own server.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.oneshotspear.OneShotSpear"],
+    "client": ["com.example.oneshotspear.OneShotSpearClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
